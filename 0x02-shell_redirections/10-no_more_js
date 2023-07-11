@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(find *js)
+rm $(find . -mindepth 1 -name"*.js" -type f)
